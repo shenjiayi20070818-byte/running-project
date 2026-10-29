@@ -1,0 +1,15 @@
+{
+  "source": "PRIVATE_LOCAL_TEMPLATE",
+  "review_required": true,
+  "coordinate_system": "mumu_cli_observed_BD09",
+  "target_distance_m": 3000,
+  "speed_m_s": 3.3333333333,
+  "points": [
+    {
+      "name": null,
+      "lat": null,
+      "lon": null
+    }
+  ],
+  "closed_loop": true
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "successful-snapshot-privacy-scan-v1",
+  "created_local": "2026-10-29T10:37:50.091677+08:00",
+  "network_upload_performed": false,
+  "device_operations": 0,
+  "source_files": 40,
+  "privacy_rules": [
+    "absolute_user_path",
+    "private_username",
+    "account_id",
+    "account_binding_hash",
+    "private_instance_id",
+    "private_attachments",
+    "real_coordinates",
+    "credentials",
+    "private_config_source_digest",
+    "forbidden_file"
+  ],
+  "residual_findings": [],
+  "all_python_ast_parse_passed": true,
+  "source_export_sha_maps_verified": true,
+  "private_config_original_hashes_omitted": true,
+  "null_templates_fail_closed": true,
+  "full_automatic_coordinator_excluded": true,
+  "full_automation_replay_not_claimed": true,
+  "passed": true,
+  "limitations": "Pattern/allowlist checks cannot guarantee every form of secret is absent. Only this sanitized snapshot is intended for upload."
+}

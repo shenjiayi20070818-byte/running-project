@@ -1,0 +1,12 @@
+{
+  "application": "运动世界",
+  "developer": "浙江万航信息科技有限公司",
+  "platform": "Android",
+  "package": "com.zjwh.android_wh_physicalfitness",
+  "versionName": "7.4.0",
+  "versionCode": 408,
+  "source": "https://mobile.baidu.com/appitemp/1760083",
+  "source_md5": "8ee6a3552d8dbbb2a28a3ac554fd4f12",
+  "source_size": 331196396,
+  "note": "截图中的 iOS 7.4.0 只用于产品与发布版本核对，安卓运行行为必须单独实测。"
+}

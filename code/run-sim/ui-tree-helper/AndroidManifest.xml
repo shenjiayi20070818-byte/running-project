@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codex.localuitree" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="33" />
+  <application android:label="Local UI Tree Observer" android:debuggable="true"
+      android:allowBackup="false" android:hasCode="true" />
+  <instrumentation android:name=".TreeInstrumentation"
+      android:targetPackage="com.codex.localuitree"
+      android:handleProfiling="false" android:functionalTest="true"
+      android:label="Read only current-window tree snapshot" />
+</manifest>

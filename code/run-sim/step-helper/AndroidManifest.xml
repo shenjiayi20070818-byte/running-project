@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="o00OoOO0.OooOOOO.sensorlab" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="33" />
+  <application android:label="Local Step Lab" android:debuggable="true" android:allowBackup="false" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+    <activity android:name=".TestActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+  </application>
+  <instrumentation android:name=".InputInstrumentation" android:targetPackage="o00OoOO0.OooOOOO.sensorlab" android:functionalTest="true" android:label="Own Step Lab only" />
+</manifest>

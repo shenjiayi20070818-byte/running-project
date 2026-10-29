@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "name": "REVIEW_REQUIRED: restore private local configuration",
+  "memory": "Sanitized export has no account or real coordinates. Restore reviewed private configuration locally before running.",
+  "review_required": true,
+  "review_reason": "Coordinates, account binding and layout review intentionally removed.",
+  "layout_validation": {
+    "verified": false,
+    "validated_local_date": null,
+    "layout_id": null,
+    "account_reference_sha256": null
+  },
+  "runtime": "MuMu",
+  "instance_index": 0,
+  "instance_created_timestamp": null,
+  "target_package": "com.zjwh.android_wh_physicalfitness",
+  "version_name": "7.4.0",
+  "version_code": 408,
+  "route_file": "run-route.json",
+  "route_point_index": 0,
+  "waypoint_file": "waypoints.json",
+  "waypoint_point_index": 0,
+  "waypoint_name": null,
+  "cli_input": {
+    "coordinate_system": "mumu_cli_observed_BD09",
+    "lat": null,
+    "lon": null
+  },
+  "native_gps_reference": {
+    "coordinate_system": "Android GPS provider observed WGS84",
+    "lat": null,
+    "lon": null
+  },
+  "maximum_position_error_m": 20,
+  "maximum_fix_age_s": 5,
+  "minimum_satellites": 1,
+  "backend_coordinate_verified": false
+}

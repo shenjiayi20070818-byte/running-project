@@ -1,0 +1,13 @@
+{
+  "source": "PRIVATE_LOCAL_TEMPLATE",
+  "coordinate_system": "mumu_cli_observed_BD09",
+  "verified": false,
+  "map_estimate_verified": false,
+  "points": [
+    {
+      "name": null,
+      "lat": null,
+      "lon": null
+    }
+  ]
+}

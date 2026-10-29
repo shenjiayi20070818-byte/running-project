@@ -1,0 +1,63 @@
+{
+  "schema": "anonymous-successful-stepwise-run-v1",
+  "review_required": true,
+  "execution_enabled": false,
+  "target": {
+    "version_name": "7.4.0",
+    "version_code": 408,
+    "runtime": "MuMu",
+    "instance_created_timestamp": null,
+    "account_reference_sha256": null,
+    "layout_id": null
+  },
+  "gps": {
+    "cli_coordinate_system": "mumu_cli_observed_BD09",
+    "cli_input": {
+      "lat": null,
+      "lon": null
+    },
+    "native_reference": {
+      "lat": null,
+      "lon": null
+    },
+    "route_points": null,
+    "position_tolerance_m": 20
+  },
+  "trajectory": {
+    "application_target_m": 3000,
+    "command_budget_m": 3100,
+    "speed_m_s": 3.3333333333,
+    "planned_advancing_seconds": 930,
+    "kind": "reviewed closed local polyline"
+  },
+  "cadence": {
+    "base_spm": 180,
+    "variation_spm": 6,
+    "amplitude_m_s2": 6,
+    "sample_rate_hz": 50,
+    "suggested_future_budget_s": 1800,
+    "actual_session_segments": {
+      "initial_requested_s": 1100,
+      "continuation_requested_s": 400,
+      "continuation_actual_approximately_s": 267.2
+    },
+    "run_ids": null
+  },
+  "anonymous_app_result": {
+    "distance_km": 3.0,
+    "duration_s": 1120,
+    "duration_text": "18m40s",
+    "average_cadence_spm": 178,
+    "points_passed": 5,
+    "points_total": 5,
+    "app_grade": "达标",
+    "user_confirmed_success": true,
+    "ended_and_saved_by": "user"
+  },
+  "limits": {
+    "new_full_automatic_coordinator_included": false,
+    "new_coordinator_full_3km_replay_tested": false,
+    "eight_acceptance_items_all_passed": false,
+    "app_internal_distance_algorithm_known": false
+  }
+}

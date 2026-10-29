@@ -1,0 +1,385 @@
+{
+  "schema": "successful-stepwise-sanitized-snapshot-v1",
+  "created_local": "2026-10-29T10:34:05.516298+08:00",
+  "scope": "Own code from the successful manual coordinated MuMu flow, including later host monitoring/recovery fixes. Full automatic coordinator excluded.",
+  "frozen_baseline": "outputs/github-export",
+  "files": [
+    {
+      "path": "code/run-sim/build_sensor_helper.py",
+      "source_relative": "outputs/run-sim/build_sensor_helper.py",
+      "original_local_source_sha256": "0a38ff89ab5efd67cfc4a7b59798fd38b8bb14269be208f2eb7bafe266ab653f",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/build_sensor_helper.py",
+      "sanitized_source_sha256": "0a38ff89ab5efd67cfc4a7b59798fd38b8bb14269be208f2eb7bafe266ab653f",
+      "export_sha256": "0a38ff89ab5efd67cfc4a7b59798fd38b8bb14269be208f2eb7bafe266ab653f",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/build_step_helper.py",
+      "source_relative": "outputs/run-sim/build_step_helper.py",
+      "original_local_source_sha256": "02b5c521ae6ea84faa783685c815f336a723fdf4d8a2dfe452241cd1e3ff9d5c",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/build_step_helper.py",
+      "sanitized_source_sha256": "02b5c521ae6ea84faa783685c815f336a723fdf4d8a2dfe452241cd1e3ff9d5c",
+      "export_sha256": "02b5c521ae6ea84faa783685c815f336a723fdf4d8a2dfe452241cd1e3ff9d5c",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/build_ui_tree_helper.py",
+      "source_relative": "outputs/run-sim/build_ui_tree_helper.py",
+      "original_local_source_sha256": "4c63e00af2895deb2a3295cfd94ffdfb9a3c0ab153535eb750d58dc39bd62712",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/build_ui_tree_helper.py",
+      "sanitized_source_sha256": "4c63e00af2895deb2a3295cfd94ffdfb9a3c0ab153535eb750d58dc39bd62712",
+      "export_sha256": "4c63e00af2895deb2a3295cfd94ffdfb9a3c0ab153535eb750d58dc39bd62712",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/check_target.py",
+      "source_relative": "outputs/run-sim/check_target.py",
+      "original_local_source_sha256": "f99ec171d49f246341fa7119fc67d9675e8d3bd73b77026e140bee9cae9f7309",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/check_target.py",
+      "sanitized_source_sha256": "f99ec171d49f246341fa7119fc67d9675e8d3bd73b77026e140bee9cae9f7309",
+      "export_sha256": "f99ec171d49f246341fa7119fc67d9675e8d3bd73b77026e140bee9cae9f7309",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/check_target_mumu.bat",
+      "source_relative": "outputs/run-sim/check_target_mumu.bat",
+      "original_local_source_sha256": "b6718fdf283d0f0479cb6b4b0a37fb65923dfae6a12aeb73c25422d9b9036250",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/check_target_mumu.bat",
+      "sanitized_source_sha256": "b6718fdf283d0f0479cb6b4b0a37fb65923dfae6a12aeb73c25422d9b9036250",
+      "export_sha256": "b6718fdf283d0f0479cb6b4b0a37fb65923dfae6a12aeb73c25422d9b9036250",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/goto_required_point_mumu.bat",
+      "source_relative": "outputs/run-sim/goto_required_point_mumu.bat",
+      "original_local_source_sha256": "06c1fa55cf1292e9ebf31a6eb4aa830506016b2f0f3328a92b10547c82676726",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/goto_required_point_mumu.bat",
+      "sanitized_source_sha256": "06c1fa55cf1292e9ebf31a6eb4aa830506016b2f0f3328a92b10547c82676726",
+      "export_sha256": "06c1fa55cf1292e9ebf31a6eb4aa830506016b2f0f3328a92b10547c82676726",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/inspect_apk.py",
+      "source_relative": "outputs/run-sim/inspect_apk.py",
+      "original_local_source_sha256": "2d1ce3e585400f027241edfeaedbc70711eac7c4e253a5c61c10add4575ff309",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/inspect_apk.py",
+      "sanitized_source_sha256": "2d1ce3e585400f027241edfeaedbc70711eac7c4e253a5c61c10add4575ff309",
+      "export_sha256": "2d1ce3e585400f027241edfeaedbc70711eac7c4e253a5c61c10add4575ff309",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/lab.py",
+      "source_relative": "outputs/run-sim/lab.py",
+      "original_local_source_sha256": "bb3061c085f2bb4589fc36582f23a3d0f1589c38279a229ce854e14fc8f1193e",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/lab.py",
+      "sanitized_source_sha256": "0f6a9b6d4681310cf1a977445709d55b3fa6fca986b4e9f0b5340b58c61abf1e",
+      "export_sha256": "0f6a9b6d4681310cf1a977445709d55b3fa6fca986b4e9f0b5340b58c61abf1e",
+      "redactions": [
+        "Removed location defaults; explicit coordinates required"
+      ]
+    },
+    {
+      "path": "code/run-sim/mumu.py",
+      "source_relative": "outputs/run-sim/mumu.py",
+      "original_local_source_sha256": "ff0dae802f5833abc4f5dfc0b7ebb17d0dd78a0ffa019158f2a50ddacea3453e",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu.py",
+      "sanitized_source_sha256": "ff0dae802f5833abc4f5dfc0b7ebb17d0dd78a0ffa019158f2a50ddacea3453e",
+      "export_sha256": "ff0dae802f5833abc4f5dfc0b7ebb17d0dd78a0ffa019158f2a50ddacea3453e",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_app_ui.py",
+      "source_relative": "outputs/run-sim/mumu_app_ui.py",
+      "original_local_source_sha256": "fb5365531800985bb87a8eb4ed8500a58f4fa9d0d2ee6954a8563a8744012b5e",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_app_ui.py",
+      "sanitized_source_sha256": "fb5365531800985bb87a8eb4ed8500a58f4fa9d0d2ee6954a8563a8744012b5e",
+      "export_sha256": "fb5365531800985bb87a8eb4ed8500a58f4fa9d0d2ee6954a8563a8744012b5e",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_circle.py",
+      "source_relative": "outputs/run-sim/mumu_circle.py",
+      "original_local_source_sha256": "42cce5719ea395b6d38316fd813e06e9f5b7d7d6ab0e2246a9f6524546744093",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_circle.py",
+      "sanitized_source_sha256": "264f4be57f8d9af756c9dcec5251be517b1f7ade368a87fe3eef6618c8b42d4e",
+      "export_sha256": "264f4be57f8d9af756c9dcec5251be517b1f7ade368a87fe3eef6618c8b42d4e",
+      "redactions": [
+        "Offline geometry uses a synthetic equatorial origin"
+      ]
+    },
+    {
+      "path": "code/run-sim/mumu_diagnose.py",
+      "source_relative": "outputs/run-sim/mumu_diagnose.py",
+      "original_local_source_sha256": "c412fbab4b3f24a089bc988b7ca6938afbf8e741c934448b3dd0da63d87a834a",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_diagnose.py",
+      "sanitized_source_sha256": "c412fbab4b3f24a089bc988b7ca6938afbf8e741c934448b3dd0da63d87a834a",
+      "export_sha256": "c412fbab4b3f24a089bc988b7ca6938afbf8e741c934448b3dd0da63d87a834a",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_fix_gnss.py",
+      "source_relative": "outputs/run-sim/mumu_fix_gnss.py",
+      "original_local_source_sha256": "249f0ddc63d7e358888f1ecfe6d0c8c629f448eaa66e35d956fe0c8ced9f253b",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_fix_gnss.py",
+      "sanitized_source_sha256": "249f0ddc63d7e358888f1ecfe6d0c8c629f448eaa66e35d956fe0c8ced9f253b",
+      "export_sha256": "249f0ddc63d7e358888f1ecfe6d0c8c629f448eaa66e35d956fe0c8ced9f253b",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_location.py",
+      "source_relative": "outputs/run-sim/mumu_location.py",
+      "original_local_source_sha256": "29ff846632324714f8eee684cfb32f815ebca79316dee27d616711f3cccb27f4",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_location.py",
+      "sanitized_source_sha256": "29ff846632324714f8eee684cfb32f815ebca79316dee27d616711f3cccb27f4",
+      "export_sha256": "29ff846632324714f8eee684cfb32f815ebca79316dee27d616711f3cccb27f4",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_route.py",
+      "source_relative": "outputs/run-sim/mumu_route.py",
+      "original_local_source_sha256": "64641ce7964148d5a4f4f0ee128d4734b067385fd70be42ca17d4992fddd0fd8",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_route.py",
+      "sanitized_source_sha256": "64641ce7964148d5a4f4f0ee128d4734b067385fd70be42ca17d4992fddd0fd8",
+      "export_sha256": "64641ce7964148d5a4f4f0ee128d4734b067385fd70be42ca17d4992fddd0fd8",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_runtime.py",
+      "source_relative": "outputs/run-sim/mumu_runtime.py",
+      "original_local_source_sha256": "7100eac3b9ec501647949c4057653dfb8f1bf8c7bee575b07e00338dd391c33d",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_runtime.py",
+      "sanitized_source_sha256": "7100eac3b9ec501647949c4057653dfb8f1bf8c7bee575b07e00338dd391c33d",
+      "export_sha256": "7100eac3b9ec501647949c4057653dfb8f1bf8c7bee575b07e00338dd391c33d",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_sensors.py",
+      "source_relative": "outputs/run-sim/mumu_sensors.py",
+      "original_local_source_sha256": "4095ebe461ba3021a636593e96820c298634aba4ecf6b9f1615b5544fa1e70b1",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_sensors.py",
+      "sanitized_source_sha256": "4095ebe461ba3021a636593e96820c298634aba4ecf6b9f1615b5544fa1e70b1",
+      "export_sha256": "4095ebe461ba3021a636593e96820c298634aba4ecf6b9f1615b5544fa1e70b1",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/mumu_start_position.py",
+      "source_relative": "outputs/run-sim/mumu_start_position.py",
+      "original_local_source_sha256": "e9f0decd6015cdabf96d68da6c863ce2059c227017b600cdfd2b531aa369dffc",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_start_position.py",
+      "sanitized_source_sha256": "7bc78dd3c879800e9108c219b80c3ee72214c4773f2a851a9253b5a061bba3ba",
+      "export_sha256": "7bc78dd3c879800e9108c219b80c3ee72214c4773f2a851a9253b5a061bba3ba",
+      "redactions": [
+        "Removed local instance binding; unconfigured template fails closed"
+      ]
+    },
+    {
+      "path": "code/run-sim/mumu_waypoint.py",
+      "source_relative": "outputs/run-sim/mumu_waypoint.py",
+      "original_local_source_sha256": "fdbfc343a6bb8f5bffc028d4b3f4d4370c0cd29de95163436603eded5a76dac9",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/mumu_waypoint.py",
+      "sanitized_source_sha256": "fdbfc343a6bb8f5bffc028d4b3f4d4370c0cd29de95163436603eded5a76dac9",
+      "export_sha256": "fdbfc343a6bb8f5bffc028d4b3f4d4370c0cd29de95163436603eded5a76dac9",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/position-profile.json",
+      "source_relative": "omitted_private_source",
+      "original_local_source_sha256": null,
+      "sanitized_source_relative": null,
+      "sanitized_source_sha256": null,
+      "export_sha256": "7dd25c9a7dae2706611c68959df706eb7e9540a865583bbbf869b9867b463cf9",
+      "redactions": [
+        "Replaced entire private configuration with null/unreviewed template"
+      ],
+      "note": "Private configuration provenance/digests omitted; only the public null template digest is published."
+    },
+    {
+      "path": "code/run-sim/run-route.json",
+      "source_relative": "omitted_private_source",
+      "original_local_source_sha256": null,
+      "sanitized_source_relative": null,
+      "sanitized_source_sha256": null,
+      "export_sha256": "c9ec342b7e7bbc3f78b8071cdefc2ab6d58c21bfbf268c976437ff069e977325",
+      "redactions": [
+        "Replaced entire private configuration with null/unreviewed template"
+      ],
+      "note": "Private configuration provenance/digests omitted; only the public null template digest is published."
+    },
+    {
+      "path": "code/run-sim/sensor-helper/AndroidManifest.xml",
+      "source_relative": "outputs/run-sim/sensor-helper/AndroidManifest.xml",
+      "original_local_source_sha256": "5ad1346a5abf04ad5ca75569d40425e6e7e216ed30445501b8455f0a8add6f1c",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/sensor-helper/AndroidManifest.xml",
+      "sanitized_source_sha256": "5ad1346a5abf04ad5ca75569d40425e6e7e216ed30445501b8455f0a8add6f1c",
+      "export_sha256": "5ad1346a5abf04ad5ca75569d40425e6e7e216ed30445501b8455f0a8add6f1c",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/sensor-helper/GnssKeepAliveService.java",
+      "source_relative": "outputs/run-sim/sensor-helper/GnssKeepAliveService.java",
+      "original_local_source_sha256": "d13022750b042ea4cb2f76ead35c8066d2d51bf30e09a3701394c9c6761b50a1",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/sensor-helper/GnssKeepAliveService.java",
+      "sanitized_source_sha256": "d13022750b042ea4cb2f76ead35c8066d2d51bf30e09a3701394c9c6761b50a1",
+      "export_sha256": "d13022750b042ea4cb2f76ead35c8066d2d51bf30e09a3701394c9c6761b50a1",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/sensor-helper/InputInstrumentation.java",
+      "source_relative": "outputs/run-sim/sensor-helper/InputInstrumentation.java",
+      "original_local_source_sha256": "4319a2dbe2ebd5cbb39aadbc3de26a290036efc240441b883cba3c77a2ae8883",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/sensor-helper/InputInstrumentation.java",
+      "sanitized_source_sha256": "4319a2dbe2ebd5cbb39aadbc3de26a290036efc240441b883cba3c77a2ae8883",
+      "export_sha256": "4319a2dbe2ebd5cbb39aadbc3de26a290036efc240441b883cba3c77a2ae8883",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/sensor-helper/TestActivity.java",
+      "source_relative": "outputs/run-sim/sensor-helper/TestActivity.java",
+      "original_local_source_sha256": "cc568dc0d698f6f9f2b125d37721a496d5da299d3fac641a13872817e05d7dab",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/sensor-helper/TestActivity.java",
+      "sanitized_source_sha256": "cc568dc0d698f6f9f2b125d37721a496d5da299d3fac641a13872817e05d7dab",
+      "export_sha256": "cc568dc0d698f6f9f2b125d37721a496d5da299d3fac641a13872817e05d7dab",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/simulate_location_mumu.bat",
+      "source_relative": "outputs/run-sim/simulate_location_mumu.bat",
+      "original_local_source_sha256": "d6d19bef9bf95ecc0e6132d7627bdba247c7fc077fed44eff8009ee0a1822c3f",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/simulate_location_mumu.bat",
+      "sanitized_source_sha256": "d6d19bef9bf95ecc0e6132d7627bdba247c7fc077fed44eff8009ee0a1822c3f",
+      "export_sha256": "d6d19bef9bf95ecc0e6132d7627bdba247c7fc077fed44eff8009ee0a1822c3f",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/simulate_steps_mumu.bat",
+      "source_relative": "outputs/run-sim/simulate_steps_mumu.bat",
+      "original_local_source_sha256": "aa82e654149577891550a69486789a0eb77d12aeb40e6daa5c32673adfbfbb16",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/simulate_steps_mumu.bat",
+      "sanitized_source_sha256": "aa82e654149577891550a69486789a0eb77d12aeb40e6daa5c32673adfbfbb16",
+      "export_sha256": "aa82e654149577891550a69486789a0eb77d12aeb40e6daa5c32673adfbfbb16",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/start_target_mumu.bat",
+      "source_relative": "outputs/run-sim/start_target_mumu.bat",
+      "original_local_source_sha256": "731b8b22b4e625b929b23b914dd73d13263e3ee0a717d627924f155c7279661b",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/start_target_mumu.bat",
+      "sanitized_source_sha256": "731b8b22b4e625b929b23b914dd73d13263e3ee0a717d627924f155c7279661b",
+      "export_sha256": "731b8b22b4e625b929b23b914dd73d13263e3ee0a717d627924f155c7279661b",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/step-helper/AndroidManifest.xml",
+      "source_relative": "outputs/run-sim/step-helper/AndroidManifest.xml",
+      "original_local_source_sha256": "06cc8d9a625ccaed250655af5095f218dd75fa89f9b216e1b41f7f0ad226241a",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/step-helper/AndroidManifest.xml",
+      "sanitized_source_sha256": "06cc8d9a625ccaed250655af5095f218dd75fa89f9b216e1b41f7f0ad226241a",
+      "export_sha256": "06cc8d9a625ccaed250655af5095f218dd75fa89f9b216e1b41f7f0ad226241a",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/step-helper/InputInstrumentation.java",
+      "source_relative": "outputs/run-sim/step-helper/InputInstrumentation.java",
+      "original_local_source_sha256": "f7d42f346f1c36e274ad59683a34ef59370c53ec1cb56c2ce25ca23106be107b",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/step-helper/InputInstrumentation.java",
+      "sanitized_source_sha256": "f7d42f346f1c36e274ad59683a34ef59370c53ec1cb56c2ce25ca23106be107b",
+      "export_sha256": "f7d42f346f1c36e274ad59683a34ef59370c53ec1cb56c2ce25ca23106be107b",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/step-helper/TestActivity.java",
+      "source_relative": "outputs/run-sim/step-helper/TestActivity.java",
+      "original_local_source_sha256": "d71f74fa89c26aff7693d08e2d4e60f1c1d1cd29bce60c73884d14f318f7533d",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/step-helper/TestActivity.java",
+      "sanitized_source_sha256": "d71f74fa89c26aff7693d08e2d4e60f1c1d1cd29bce60c73884d14f318f7533d",
+      "export_sha256": "d71f74fa89c26aff7693d08e2d4e60f1c1d1cd29bce60c73884d14f318f7533d",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/step_continue.py",
+      "source_relative": "outputs/run-sim/step_continue.py",
+      "original_local_source_sha256": "b750d3625a9e732b797d9ccd2b0b77425c6e6db77f8abd12853ae1cb20bfaa9d",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/step_continue.py",
+      "sanitized_source_sha256": "b750d3625a9e732b797d9ccd2b0b77425c6e6db77f8abd12853ae1cb20bfaa9d",
+      "export_sha256": "b750d3625a9e732b797d9ccd2b0b77425c6e6db77f8abd12853ae1cb20bfaa9d",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/step_recover.py",
+      "source_relative": "outputs/run-sim/step_recover.py",
+      "original_local_source_sha256": "fb66cf08e965893c15b0b672ae0399fe0050b78983d070fb5aa6fc8eccab669e",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/step_recover.py",
+      "sanitized_source_sha256": "fb66cf08e965893c15b0b672ae0399fe0050b78983d070fb5aa6fc8eccab669e",
+      "export_sha256": "fb66cf08e965893c15b0b672ae0399fe0050b78983d070fb5aa6fc8eccab669e",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/step_sim.bat",
+      "source_relative": "outputs/run-sim/step_sim.bat",
+      "original_local_source_sha256": "98b7bbfca5dda17db5d000c5471897531b811e5564ee4651cfadb7e99e563e65",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/step_sim.bat",
+      "sanitized_source_sha256": "98b7bbfca5dda17db5d000c5471897531b811e5564ee4651cfadb7e99e563e65",
+      "export_sha256": "98b7bbfca5dda17db5d000c5471897531b811e5564ee4651cfadb7e99e563e65",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/step_sim.py",
+      "source_relative": "outputs/run-sim/step_sim.py",
+      "original_local_source_sha256": "c0edb8b1223052eccaedbd931f3cd7627ed710e61b672cab9d45e13bed7ebfb2",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/step_sim.py",
+      "sanitized_source_sha256": "c0edb8b1223052eccaedbd931f3cd7627ed710e61b672cab9d45e13bed7ebfb2",
+      "export_sha256": "4e840c2a56e3bc91050eb013c04c75300b9726bd7edde03ef0c64009a7844ea6",
+      "redactions": [
+        "Public-export fail-closed guard added for default sensor input; stop remains available"
+      ]
+    },
+    {
+      "path": "code/run-sim/stop_mumu.bat",
+      "source_relative": "outputs/run-sim/stop_mumu.bat",
+      "original_local_source_sha256": "2e9306fdecd2c647c62311e082bd36ad48c6486d3c8e13e9c453e019fa1d370d",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/stop_mumu.bat",
+      "sanitized_source_sha256": "2e9306fdecd2c647c62311e082bd36ad48c6486d3c8e13e9c453e019fa1d370d",
+      "export_sha256": "2e9306fdecd2c647c62311e082bd36ad48c6486d3c8e13e9c453e019fa1d370d",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/target.json",
+      "source_relative": "outputs/run-sim/target.json",
+      "original_local_source_sha256": "c5a30f7287c97b33b65992a1fe9f1b862efcf1914d6233eceb8fc110a277e89a",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/target.json",
+      "sanitized_source_sha256": "c5a30f7287c97b33b65992a1fe9f1b862efcf1914d6233eceb8fc110a277e89a",
+      "export_sha256": "c5a30f7287c97b33b65992a1fe9f1b862efcf1914d6233eceb8fc110a277e89a",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/ui-tree-helper/AndroidManifest.xml",
+      "source_relative": "outputs/run-sim/ui-tree-helper/AndroidManifest.xml",
+      "original_local_source_sha256": "22c8dbb142ebeb02de6d108910f163c4aef0bef8052a747091caad744671b613",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/ui-tree-helper/AndroidManifest.xml",
+      "sanitized_source_sha256": "22c8dbb142ebeb02de6d108910f163c4aef0bef8052a747091caad744671b613",
+      "export_sha256": "22c8dbb142ebeb02de6d108910f163c4aef0bef8052a747091caad744671b613",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/ui-tree-helper/TreeInstrumentation.java",
+      "source_relative": "outputs/run-sim/ui-tree-helper/TreeInstrumentation.java",
+      "original_local_source_sha256": "015f2c0800a56fefe7c99ae60403e73d6b16f21f7a45577f4306c585128daf45",
+      "sanitized_source_relative": "outputs/github-export/code/run-sim/ui-tree-helper/TreeInstrumentation.java",
+      "sanitized_source_sha256": "015f2c0800a56fefe7c99ae60403e73d6b16f21f7a45577f4306c585128daf45",
+      "export_sha256": "015f2c0800a56fefe7c99ae60403e73d6b16f21f7a45577f4306c585128daf45",
+      "redactions": []
+    },
+    {
+      "path": "code/run-sim/waypoints.json",
+      "source_relative": "omitted_private_source",
+      "original_local_source_sha256": null,
+      "sanitized_source_relative": null,
+      "sanitized_source_sha256": null,
+      "export_sha256": "5dc61e6e4e94067cfcad1a07f98dca54042776c754d6e0778e79a0cac86f9066",
+      "redactions": [
+        "Replaced entire private configuration with null/unreviewed template"
+      ],
+      "note": "Private configuration provenance/digests omitted; only the public null template digest is published."
+    }
+  ]
+}

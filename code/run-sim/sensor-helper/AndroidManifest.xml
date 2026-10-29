@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zjwh.android_wh_physicalfitness.sensorlab"
+    android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="33" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <application android:label="MuMu Sensor Self Test" android:debuggable="true"
+      android:allowBackup="false" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+    <activity android:name=".TestActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+    </activity>
+    <service android:name=".GnssKeepAliveService" android:exported="true"
+        android:permission="android.permission.DUMP" android:foregroundServiceType="location" />
+  </application>
+  <instrumentation android:name=".InputInstrumentation"
+      android:targetPackage="com.zjwh.android_wh_physicalfitness.sensorlab"
+      android:functionalTest="true" android:label="Own helper only sensor replay test" />
+</manifest>
